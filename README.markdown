@@ -18,6 +18,7 @@ Making an API call is a simple matter.
 2. Set the parameters you want to send
 3. Fire the post() or get() methods
 
+
     require 'hapi'
     h = HAPI::APICall.new "https://path.to/my/api"
     h.params = {'user' => 'rodjek, 'foo' => 'bar'}

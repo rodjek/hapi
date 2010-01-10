@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hapi"
-    gem.summary = %Q{Generic HTTP API wrapper}
+    gem.summary = %Q{Generic HTTP API wrapper for Ruby}
     gem.description = %Q{TODO: longer description of your gem}
     gem.email = "tim@sharpe.id.au"
     gem.homepage = "http://github.com/rodjek/hapi"
     gem.authors = ["Tim Sharpe"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency "xml-object", ">= 0"
+    gem.add_dependency "libxml-ruby"
+    gem.add_development_dependency "shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

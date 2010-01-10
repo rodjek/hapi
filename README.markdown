@@ -18,14 +18,13 @@ Making an API call is a simple matter.
 2. Set the parameters you want to send
 3. Fire the post() or get() methods
 
+The XML content result is parsed by [xml-object][0] and returned at a Ruby 
+object for simplicity.
 
     require 'hapi'
     h = HAPI::APICall.new "https://path.to/my/api"
     h.params = {'user' => 'rodjek, 'foo' => 'bar'}
     response = h.post
-
-The XML content result is parsed by [xml-object][0] and returned at a Ruby 
-object for simplicity.
 
 i.e.
 

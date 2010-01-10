@@ -13,6 +13,7 @@ Using
 -----
 
 Making an API call is a simple matter.
+
 1. Create the HAPI::APICall object
 2. Set the parameters you want to send
 3. Fire the post() or get() methods

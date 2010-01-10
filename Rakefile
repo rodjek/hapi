@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "hapi"
     gem.summary = %Q{Generic HTTP API wrapper for Ruby}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Generic HTTP API wrapper for Ruby}
     gem.email = "tim@sharpe.id.au"
     gem.homepage = "http://github.com/rodjek/hapi"
     gem.authors = ["Tim Sharpe"]
